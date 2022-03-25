@@ -1,0 +1,256 @@
+body{
+    background-color: cornsilk;
+}
+/* ---------- COELHO ----------- */
+.rosto-coelho {
+    width: 100px;
+    height: 80px;
+    border: 5px solid black;
+    background-color: bisque;
+    border-radius: 44% 45% 26% 26% / 60% 60% 30% 30% ;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.olho1-coelho{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    top: 155px;
+}
+.olho2-coelho{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 170px;
+    top: 155px;
+}
+.blush1-coelho, .blush2-coelho{
+    width: 10px;
+    height: 10px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    filter: blur(5px);
+    position: absolute;
+    left: 110px;
+    top: 165px;
+}
+.blush2-coelho{
+    left: 190px;
+}
+.boca-coelho {
+    width: 10px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 148px;
+    top: 140px;
+}
+.boca-mask-coelho{
+    width: 15px;
+    height: 30px;
+    background-color: bisque;
+    position: absolute;
+    left: 148px;
+    top: 138px;
+}
+.orelha1-coelho, .orelha2-coelho {
+    width: 25px;
+    height: 60px;
+    border: 5px solid black;
+    background-color: bisque;
+    border-radius: 50%;
+    transform: rotate(-32deg);
+    position: absolute;
+    left: 110px;
+    top: 40px;
+}
+.orelha2-coelho{
+    transform: rotate(35deg);
+    left: 165px;
+}
+
+/* ---------- CACHORRO ----------- */
+
+.rosto-cachorro{
+    width: 100px;
+    height: 80px;
+    border: 5px solid black;
+    background-color: chocolate;
+    border-radius: 44% 45% 26% 26% / 60% 60% 30% 30% ;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+.olho1-cachorro{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 330px;
+    top: 155px;
+}
+.olho2-cachorro{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 370px;
+    top: 155px;
+}
+.blush1-cachorro, .blush2-cachorro{
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    border-radius: 50%;
+    filter: blur(5px);
+    position: absolute;
+    left: 310px;
+    top: 165px;
+}
+.blush2-cachorro{
+    left: 390px;
+}
+.boca-cachorro{
+    width: 10px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 348px;
+    top: 140px;
+}
+.boca-mask-cachorro{
+    width: 15px;
+    height: 30px;
+    background-color: chocolate;
+    position: absolute;
+    left: 348px;
+    top: 138px;
+}
+.orelha1-cachorro, .orelha2-cachorro{
+    width: 25px;
+    height: 45px;
+    background-color: brown;
+    border: 5px solid black;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    position: absolute;
+    left: 295px;
+    top: 90px;
+    transform: rotate(30deg);
+}
+.orelha2-cachorro{
+    left: 378px;
+    transform: rotate(-30deg) rotateY(180deg);
+}
+/* ---------- RATO ----------- */
+.rosto-rato{
+    width: 100px;
+    height: 80px;
+    border: 5px solid black;
+    background-color: gainsboro;
+    border-radius: 44% 45% 26% 26% / 60% 60% 30% 30% ;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+.olho1-rato{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 530px;
+    top: 155px;
+}
+.olho2-rato{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 570px;
+    top: 155px;
+}
+.blush1-rato, .blush2-rato{
+    width: 10px;
+    height: 10px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    filter: blur(5px);
+    position: absolute;
+    left: 510px;
+    top: 165px;
+}
+.blush2-rato{
+    left: 590px;
+}
+.boca-rato{
+    width: 10px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 548px;
+    top: 140px;
+}
+.boca-mask-rato{
+    width: 15px;
+    height: 30px;
+    background-color: gainsboro;
+    position: absolute;
+    left: 548px;
+    top: 138px;
+}
+.orelha1-rato, .orelha2-rato{
+    width: 50px;
+    height: 45px;
+    background-color: gainsboro;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 476px;
+    top: 70px; 
+    transform: rotate(20deg);
+}
+.orelha2-rato{
+    left: 575px;
+    transform: rotate(-20deg);
+}
+.orelha1-mask-rato, .orelha2-mask-rato{
+    width: 40px;
+    height: 35px;
+    background-color: pink;
+    border-radius: 50%;
+    filter: blur(3px);
+    position: absolute;
+    left: 490px;
+    top: 82px;
+    transform: rotate(20deg);
+}
+.orelha2-mask-rato{
+    left: 582px;
+    transform: rotate(-20deg);
+}
+.bigode1-rato, .bigode2-rato{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    clip-path: polygon(89% 53%, 0 25%, 0 0, 100% 36%, 100% 67%, 0 100%, 1% 77%);
+    border-radius: 2px;
+    position: absolute;
+    left: 505px;
+    top: 165px;
+}
+.bigode2-rato {
+    left: 590px;
+    transform: rotate(180deg);
+}
