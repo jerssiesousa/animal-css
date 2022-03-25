@@ -267,3 +267,55 @@ body{
     left: 100px;
     top: 280px;
 }
+.olho1-galinha{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    top: 335px;
+}
+.olho2-galinha{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 170px;
+    top: 335px;
+}
+.blush1-galinha, .blush2-galinha{
+    width: 10px;
+    height: 10px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    filter: blur(5px);
+    position: absolute;
+    left: 110px;
+    top: 345px;
+}
+.blush2-galinha{
+    left: 190px;
+}
+.boca-galinha{
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    border: 2px solid black;
+    border-radius: 1px;
+    background-color: orangered;
+    position: absolute;
+    left: 146px;
+    top: 338px;
+}
+.crista-galinha{
+    width: 20px;
+    height: 25px;
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 45% 43% 37% 36% / 70% 70% 30% 30% ;
+    position: absolute;
+    top: 260px;
+    left: 140px;
+}
